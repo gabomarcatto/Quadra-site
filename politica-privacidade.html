@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — Quadra</title>
+<meta name="description" content="Política de Privacidade do Quadra App.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#1B4FD8; --green:#00966A; --violet:#7C3AED; --amber:#D97706;
+    --ink:#0F1923; --ink-soft:#64748B; --ink-faint:#94A3B8;
+    --paper:#F5F7FA; --surface:#FFFFFF; --line:#E8ECF0; --line-dark: rgba(255,255,255,0.14);
+    --navy:#0F1930; --navy-2:#1B2745; --grad: linear-gradient(135deg, var(--blue), var(--green));
+    --font:'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --space-1:0.5rem; --space-2:1rem; --space-3:1.5rem; --space-4:2.5rem; --space-5:4rem;
+    --radius-m:20px; --max-w:1180px;
+  }
+  *,*::before,*::after{ box-sizing:border-box; }
+  body{ margin:0; font-family:var(--font); color:var(--ink); background:var(--paper); -webkit-font-smoothing:antialiased; line-height:1.6; }
+  a{ color:inherit; text-decoration:none; }
+  h1,h2,h3,p{ margin:0; }
+  .wrap{ max-width:800px; margin:0 auto; padding-left:var(--space-3); padding-right:var(--space-3); }
+  @media (min-width:700px){ .wrap{ padding-left:var(--space-4); padding-right:var(--space-4); } }
+
+  .logo{ display:flex; align-items:center; gap:0.6em; font-weight:700; font-size:1.25rem; }
+  .logo-mark{ width:32px; height:32px; border-radius:8px; background:var(--blue); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:1.1rem; flex:none; }
+  .logo-word{ background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; letter-spacing:-0.02em; }
+
+  header.site{ position:sticky; top:0; z-index:50; background:rgba(245,247,250,0.88); backdrop-filter:blur(10px); border-bottom:1px solid var(--line); }
+  .nav{ display:flex; align-items:center; justify-content:space-between; padding:var(--space-2) 0; }
+  .btn{ font-weight:700; font-size:0.85rem; padding:0.7em 1.3em; border-radius:100px; display:inline-flex; align-items:center; gap:0.5em; border:1.5px solid var(--line); color:var(--ink); cursor:pointer; }
+  .btn:hover{ border-color:var(--blue); background:rgba(27,79,216,0.05); }
+
+  main{ padding:var(--space-5) 0 var(--space-5); }
+  .doc-head{ margin-bottom:var(--space-4); }
+  .eyebrow{ font-size:0.78rem; letter-spacing:0.06em; text-transform:uppercase; font-weight:700; color:var(--blue); }
+  h1.title{ font-weight:800; font-size:clamp(1.8rem,4vw,2.4rem); letter-spacing:-0.02em; margin:0.4rem 0 0.6rem; }
+  .updated{ font-size:0.85rem; color:var(--ink-soft); }
+
+  h2{ font-size:1.05rem; font-weight:700; color:var(--ink); margin:2.2rem 0 0.6rem; }
+  h2:first-of-type{ margin-top:0; }
+  p{ font-size:0.95rem; color:#3F3F4E; margin-bottom:0.4rem; }
+  a.link{ color:var(--blue); font-weight:600; }
+
+  .note{ margin-top:2.5rem; padding:1.1rem 1.3rem; background:var(--surface); border:1px solid var(--line); border-radius:16px; font-size:0.85rem; color:var(--ink-soft); }
+
+  footer{ background:var(--navy-2); color:#8f9ac0; padding:var(--space-4) 0; font-size:0.85rem; }
+  footer .wrap{ display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; align-items:center; }
+  footer a:hover{ color:#fff; }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="/"><span class="logo-mark">Q</span><span class="logo-word">Quadra</span></a>
+    <a class="btn" href="/">← Voltar pro site</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="doc-head">
+      <span class="eyebrow">LEGAL</span>
+      <h1 class="title">Política de Privacidade</h1>
+      <div class="updated">Última atualização: [preencher data de publicação]</div>
+    </div>
+
+    <p>Esta Política de Privacidade explica como o Quadra App ("nós", "app", "Quadra") coleta, usa, armazena e protege os dados pessoais de quem usa a plataforma — atletas, professores e clubes parceiros. Ela segue os princípios da Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).</p>
+
+    <h2>1. Quem somos</h2>
+    <p>Esta política é mantida por <strong>Gabriel Hansen Marcatto LTDA</strong> (nome fantasia: <strong>Quadra Tecnologia e Soluções</strong>), inscrita no CNPJ [preencher CNPJ], responsável pelo tratamento dos seus dados dentro do Quadra App. Contato: <a class="link" href="mailto:contato@quadraapp.com.br">contato@quadraapp.com.br</a>.</p>
+
+    <h2>2. Quais dados coletamos</h2>
+    <p><strong>Dados de cadastro:</strong> nome completo, e-mail, telefone, CPF (quando aplicável), senha (armazenada de forma criptografada), categoria/nível de jogo, lado preferido, estilo, disponibilidade e clube preferido.</p>
+    <p><strong>Dados de uso:</strong> aulas, jogos e torneios que você participa, cria ou administra; mensagens nos chats de jogos e torneios; avaliações e comentários; posts, fotos e interações na Comunidade; comprovantes de pagamento anexados.</p>
+    <p><strong>Dados técnicos:</strong> informações do dispositivo e navegador, para funcionamento do app e envio de notificações push quando ativadas.</p>
+
+    <h2>3. O que NÃO coletamos</h2>
+    <p>O Quadra App não processa pagamentos. Todo pagamento é feito diretamente entre você e o professor ou clube, via Pix, fora do app. Não temos acesso a dados bancários, cartões ou senhas de aplicativos de banco.</p>
+
+    <h2>4. Como usamos seus dados</h2>
+    <p>Para viabilizar o funcionamento do app (agendar aulas, organizar jogos e torneios, conectar você a professores e outros atletas), calcular e exibir valores de aulas/jogos/taxas, enviar notificações relacionadas à sua atividade (inclusive push, quando ativado), exibir seu perfil e estatísticas para outros usuários conforme suas configurações de privacidade, e melhorar a experiência do app.</p>
+
+    <h2>5. Com quem compartilhamos dados</h2>
+    <p>Professores e clubes parceiros veem nome, telefone, categoria e dados da aula/jogo. Outros atletas veem seu nome, foto, categoria e estatísticas públicas dentro da Comunidade, conforme sua configuração de privacidade. Comprovantes de pagamento ficam visíveis apenas para quem precisa aprovar aquele pagamento específico. Não vendemos nem alugamos seus dados pessoais para terceiros.</p>
+
+    <h2>6. Armazenamento e segurança</h2>
+    <p>Os dados são armazenados em infraestrutura de nuvem (Supabase), com medidas técnicas para proteger contra acesso não autorizado. Senhas são armazenadas de forma criptografada, nunca em texto legível.</p>
+
+    <h2>7. Seus direitos (LGPD)</h2>
+    <p>Você pode solicitar acesso aos dados que temos sobre você, corrigir dados incorretos, solicitar a exclusão da sua conta, e retirar o consentimento para notificações push a qualquer momento. Para exercer esses direitos, entre em contato pelo e-mail <a class="link" href="mailto:contato@quadraapp.com.br">contato@quadraapp.com.br</a>.</p>
+
+    <h2>8. Retenção de dados</h2>
+    <p>Mantemos seus dados enquanto sua conta estiver ativa. Se você solicitar a exclusão da conta, removemos os dados pessoais, exceto quando a manutenção por período adicional for exigida por lei.</p>
+
+    <h2>9. Menores de idade</h2>
+    <p>O Quadra App não é direcionado a menores de 18 anos sem supervisão de um responsável.</p>
+
+    <h2>10. Alterações nesta política</h2>
+    <p>Podemos atualizar esta política periodicamente. Mudanças significativas serão comunicadas dentro do app.</p>
+
+    <h2>11. Contato</h2>
+    <p>Dúvidas sobre esta política ou sobre seus dados: <a class="link" href="mailto:contato@quadraapp.com.br">contato@quadraapp.com.br</a>.</p>
+
+    <div class="note">Este documento é um modelo adaptado ao funcionamento do Quadra App. Recomenda-se revisão por um advogado antes da publicação oficial.</div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Quadra Tecnologia e Soluções — Gabriel Hansen Marcatto LTDA</span>
+    <a href="/termos-de-uso.html">Termos de Uso</a>
+  </div>
+</footer>
+
+</body>
+</html>
