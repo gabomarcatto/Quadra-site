@@ -99,10 +99,16 @@
     display:flex; align-items:center; justify-content:center;
     font-weight:900; font-size:1.1rem; flex:none;
   }
+  .logo-text{ display:flex; flex-direction:column; line-height:1; }
   .logo-word{
     background:var(--grad); -webkit-background-clip:text; background-clip:text;
     color:transparent; letter-spacing:-0.02em;
   }
+  .logo-tagline{
+    font-size:0.34em; font-weight:600; letter-spacing:0.05em;
+    color:var(--ink-soft); text-align:right; margin-top:1px;
+  }
+  .logo-tagline.on-dark{ color:#8f9ac0; }
 
   .eyebrow{
     font-size:0.78rem; letter-spacing:0.06em; text-transform:uppercase;
@@ -301,7 +307,7 @@
 <input type="checkbox" id="nav-toggle">
 <header class="site">
   <div class="wrap nav">
-    <a class="logo" href="#top"><span class="logo-mark">Q</span><span class="logo-word">Quadra</span></a>
+    <a class="logo" href="#top"><span class="logo-mark">Q</span><span class="logo-text"><span class="logo-word">Quadra</span><span class="logo-tagline">tecnologia</span></span></a>
     <nav class="nav-links">
       <a href="#atletas">Atletas</a>
       <a href="#professores">Professores</a>
@@ -567,7 +573,7 @@
 <footer>
   <div class="wrap foot-grid">
     <div>
-      <a class="logo" href="#top"><span class="logo-mark">Q</span><span style="color:#fff;">Quadra</span></a>
+      <a class="logo" href="#top"><span class="logo-mark">Q</span><span class="logo-text"><span style="color:#fff;">Quadra</span><span class="logo-tagline on-dark">tecnologia</span></span></a>
       <p style="margin-top:var(--space-2); max-width:26em;">O app que organiza o padel de Curitiba — atletas, professores e clubes, numa quadra só.</p>
     </div>
     <div>
@@ -583,8 +589,6 @@
       <ul>
         <li><a href="mailto:contato@quadraapp.com.br">contato@quadraapp.com.br</a></li>
         <li>Curitiba · PR</li>
-        <li><a href="/politica-privacidade.html">Política de Privacidade</a></li>
-        <li><a href="/termos-de-uso.html">Termos de Uso</a></li>
       </ul>
     </div>
   </div>
